@@ -141,6 +141,11 @@ print(f'Distancia: {D} km')
 #    de atraso, os juros que serão cobrados pelo período de atraso, o
 #    valor da prestação acrescido dos juros. Considere juros simples.
 
+
 #20. Faça um programa que efetue a apresentação do valor da conversão
 #    em real (R$) de um valor lido em dólar (US$). Para isso, será
 #    necessário também ler o valor da cotação do dólar.
+valor_dolar = float(input('Digite o valor em dolar: '))
+cotação = float(input('Digite o valor da cotação: '))
+valor_real = valor_dolar * cotação
+print(f'R$: {valor_real}')
