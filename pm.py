@@ -127,7 +127,12 @@ print(f'Fahrenheit: {(9*c+160)/5}')
 #    • L = Litros de combustível consumidos
 #    Ao final, o programa deverá imprimir a distância percorrida e a
 #    quantidade de litros consumidos na viagem.
-
+T = float(input('Tempo: '))
+V = float(input('Velocidade media: '))
+D = T*V
+L=D/12
+print(f'Litros: {L} L')
+print(f'Distancia: {D} km')
 
 #19. Faça um programa que calcule o valor de uma prestação em atraso.
 #    Para isso, o programa deve ler o valor da prestação vencida, a
