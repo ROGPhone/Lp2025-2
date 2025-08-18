@@ -140,6 +140,9 @@ print(f'Distancia: {D} km')
 #    programa deve imprimir o valor da prestação atrasada, o período
 #    de atraso, os juros que serão cobrados pelo período de atraso, o
 #    valor da prestação acrescido dos juros. Considere juros simples.
+valor_prest_venci = float(input('Digite o valor da Prestação vencida: '))
+taxa_peri = float(input('Taxa periodica de juros: '))
+periodo_atra = float(input('Periodo de atraso: '))
 
 
 #20. Faça um programa que efetue a apresentação do valor da conversão
