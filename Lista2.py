@@ -178,6 +178,15 @@ def q13()
 #Maior que R$1200,00 e menor ou igual a R$2000,00 25%
 #Maior que R$2000,00 30%
 
+def q14()
+    salario = int(input('Digite salario: '))
+        if salario < 600:
+            print('Isento')
+            elif salario > 600 and salario <1200:
+                sal = salario * 0,8
+                    print('Salario com 20 porcento de desconto do INSS', sal)
+                    
+
 #15. Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o
 #valor da compra for menor que R$20,00, caso contrário, o lucro será de 30%.
 #Faça um programa que leia o valor do produto e imprima o valor da venda.
