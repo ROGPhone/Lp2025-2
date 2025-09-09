@@ -163,9 +163,9 @@ def q13()
     p2 = int(input('Nota Prova 2: '))
         p = p1 + p2 /2 
         if p >= 7:
-            print(f'Aprovado',nom , p')
+            print(f'Reprovado:{nom , p}')
             elif p < 7:
-                print(f'Reprovado',nom , p)
+                print(f'Reprovado:{nom , p}')
                 elif p <3:
                     print('prova final')
 
@@ -184,12 +184,20 @@ def q14()
             print('Isento')
             elif salario > 600 and salario <1200:
                 sal = salario * 0,8
-                    print('Salario com 20 porcento de desconto do INSS', sal)
-                    
+                    print(f'Salario com 20 porcento de desconto do INSS: {sal}')
 
 #15. Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o
 #valor da compra for menor que R$20,00, caso contrário, o lucro será de 30%.
 #Faça um programa que leia o valor do produto e imprima o valor da venda.
+
+def q15()
+    produto = int(input('Digite o valor do produto: '))
+        if produto <= 20:
+            lucro = produto * 1.45
+                print(f'Lucro de 45 porcento sera: {lucro}')
+            elif produto > 20:
+                lucro = produto * 1.30
+                    print(f'Lucro de 30 porcento sera: {lucro}')
 
 #16. A confederação brasileira de natação irá promover eliminatórias para o
 #próximo mundial. Faça um programa que receba a idade de um nadador e imprima
@@ -200,6 +208,19 @@ def q14()
 #Juvenil A 11 - 13 anos
 #Juvenil B 14 - 17 anos
 #Sênior maiores de 18 anos
+
+def q16()
+    idade = int(input('Digite sua idade: '))
+        if idade > 5 and idade < 7:
+            print('Infantil A:')
+            elif idade > 8 and idade < 10:
+                print('Infantil B:')
+            elif idade > 11 and idade < 13:
+                print('Juventil A:')
+            elif idade > 14 and idade < 17:
+                print('Juventil B:')
+                elif idade > 18: 
+                    print('Sênior maiores de 18 anos:')
 
 #17. Depois da liberação do governo para as mensalidades dos planos de saúde,
 #as pessoas começaram a fazer pesquisas para descobrir um bom plano, não
@@ -213,6 +234,9 @@ def q14()
 #Acima de 45 até 59 anos R$150,00
 #Acima de 59 até 65 anos R$250,00
 #Maior que 65 anos R$400,00
+
+            elif idade > 8 and idade < 10:
+                print('Infantil B:')
 
 #18. Faça um programa que leia um número inteiro entre 1 e 12 e escreva o mês
 #correspondente. Caso o usuário digite um número fora desse intervalo, deverá
