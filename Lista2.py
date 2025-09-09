@@ -235,12 +235,29 @@ def q16()
 #Acima de 59 até 65 anos R$250,00
 #Maior que 65 anos R$400,00
 
-            elif idade > 8 and idade < 10:
-                print('Infantil B:')
+    def q17()
+    nome = (input('Digite seu nome: '))
+    idade = int(input('Digite sua idade: '))
+        if idade <= 10:
+            print(f'idade ate 10 anos:{nome} valor de 30')
+        elif idade >= 10 and idade <= 29:
+            print(f'idade entre 10 a 29:{nome} valor de 60')
+        elif idade >= 29 and idade <= 45:
+            print(f'idade entre 29 a 45:{nome} valor de 120')
+        elif idade >= 45 and idade <= 59:
+            print(f'idade entre 45 a 59:{nome} valor de 150')
+        elif idade >= 59 and idade <= 65:
+            print(f'idade entre 59 a 65:{nome} valor de 250')
+        elif idade > 65:
+            print(f'idade maior que 65 anos:{nome} valor de 400')
+
 
 #18. Faça um programa que leia um número inteiro entre 1 e 12 e escreva o mês
 #correspondente. Caso o usuário digite um número fora desse intervalo, deverá
 #aparecer uma mensagem informando que não existe mês com este número.
+
+    def q18()
+        
 
 #19. Em um campeonato nacional de arco-e-flecha, tem-se equipes de três jogadores
 #para cada estado. Sabendo-se que os arqueiros de uma equipe não obtiveram o
