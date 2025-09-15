@@ -257,7 +257,22 @@ def q16()
 #aparecer uma mensagem informando que não existe mês com este número.
 
     def q18()
-        
+        num = int(input('Digite um numero inteiro: '))
+        if num < 1 and num > 12:
+            elif num == 1:
+                print('Janeiro')
+            elif num == 2:
+                print('Fervereiro')
+            elif num == 3:
+                print('Março')
+            elif num == 4:
+                print('Abril')
+            elif num == 5:
+                print('Fervereiro')
+            else:
+                print('não existe mês com este número.')
+
+
 
 #19. Em um campeonato nacional de arco-e-flecha, tem-se equipes de três jogadores
 #para cada estado. Sabendo-se que os arqueiros de uma equipe não obtiveram o
@@ -267,6 +282,12 @@ def q16()
 #• Mostrar esses em ordem decrescente;
 #• Se a soma dos pontos for maior do que 100, imprimir a média aritmética entre eles,
 #  caso contrário, imprimir a mensagem "Equipe desclassificada".
+
+def q19()
+        num = int(input('Digite um numero inteiro: '))
+
+
+
 
 #20. O banco XXX concederá um crédito especial com juros de 2% aos seus clientes de
 #acordo com o saldo médio no último ano. Faça um programa que leia o saldo médio
