@@ -42,10 +42,25 @@ q2()
 
 
 #3. Faça um programa que imprima os múltiplos de 5, no intervalo de 1 até 500.
+def q3():
+for numero in range(1, 501):
+    if numero % 5 == 0:
+        print(numero)
+q3()
 
 #4. Faça um programa que permita entrar com o nome, a idade e o sexo de 20
 #pessoas.O programa deve imprimir o nome da pessoa se ela for do sexo masculino
 #e tiver mais de 21 anos.
+def q4():
+for i in range(20):
+    print(f"\nPessoa {i + 1}")
+    nome = input("Digite o nome: ")
+    idade = int(input("Digite a idade: "))
+    sexo = input("Digite o sexo (M/F): ").strip().upper()
+
+    if sexo == "M" and idade > 21:
+        print(f"=> {nome} (masculino, mais de 21 anos)")
+q4()
 
 #5. Sabendo-se que a unidade lógica e aritmética calcula o produto através de somas
 #sucessivas, crie um programa que calcule o produto de dois números inteiros
